@@ -12,6 +12,7 @@ body {
     width: 60px;
     background-color: #f823e6;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -34,19 +35,14 @@ body {
 
 .menu img {
     width: 20px;
-    /* Ajusta el tamaño de los logos según sea necesario */
     height: auto;
     margin-bottom: 10px;
-    /* Espaciado entre los logos */
     cursor: pointer;
     transition: color 0.3s;
-    /* Agrega una transición de color suave */
-
 }
 
 .menu img:hover {
     filter: brightness(1.2);
-    /* Cambia el brillo de la imagen al pasar el ratón sobre ella */
 }
 
 .social-icons {
@@ -66,16 +62,13 @@ body {
 
 .social-icons img {
     width: 15px;
-    /* Ajusta el tamaño de los logos según sea necesario */
     height: auto;
     cursor: pointer;
     transition: filter 0.3s;
-    /* Agrega una transición suave al filtro */
 }
 
 .social-icons img:hover {
     filter: brightness(1.2);
-    /* Cambia el brillo de la imagen al pasar el ratón sobre ella */
 }
 
 /* Estilo para la sección de bienvenida con imagen de fondo */
@@ -89,13 +82,15 @@ body {
     font-size: 20px;
 }
 .hero {
-    color: #fff;
-    text-align: left;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    padding: auto;
-    font-size: 20px;
+   
+        color: #fff;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding: 20px;
+        font-size: 20px;
+    
 }
 
 .hero-content {
@@ -216,6 +211,7 @@ section {
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
+   
 }
 
 .experience-card {
@@ -227,6 +223,7 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: transform 0.3s ease-in-out; 
+
 }
 
 .experience-card:hover {
@@ -234,67 +231,52 @@ section {
 }
 
 
-.job-details {
-   
-}
-
-.experience-card a {
-    color: #3498db; /* Cambia este color al que prefieras */
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.experience-card a:hover {
-    color: #e74c3c; /* Cambia este color al que prefieras para el estado hover */
-}
 
 .experience-card a:visited {
     color: #ffffff; /* Cambia este color al que prefieras para los enlaces visitados */
 }
 
-@media only screen and (max-width: 600px) {
+@@media only screen and (max-width: 600px) {
     .menu {
+        flex-direction: row;
         width: 100%;
         height: auto;
-        flex-direction: column;
-        position: relative;
+        justify-content: space-between;
+        padding: 10px;
+        
     }
 
     .menu ul {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        width: 100%;
+        margin-top: 0;
     }
 
     .menu li {
         margin-bottom: 0;
+        margin-right: 10px;
     }
 
-    .menu img {
-        margin-bottom: 0;
+    .menu a {
+        font-size: 14px; /* Reducir el tamaño de la fuente para dispositivos móviles */
     }
 
     .social-icons {
-        display: none; /* Ocultar íconos sociales en pantallas pequeñas */
+        display: flex; /* Mostrar íconos sociales en dispositivos móviles */
+        flex-direction: row; /* Cambiar a una fila en lugar de una columna */
+        align-items: center;
+        position: fixed;
+        top: 0; /* Ajustar a la parte superior en lugar de la parte inferior */
+        left: 0;
+        height: 100%;
+        width: 60px;
     }
 
-    .hero {
-        padding: 50px; /* Ajustar el relleno según sea necesario */
+    .social-icons a {
+        margin-right: 0; /* Ajustar el margen derecho a 0 */
+        margin-bottom: 10px; /* Mantener el margen inferior */
     }
 
-    .hero-content {
-        max-width: 100%; /* Ajustar según sea necesario */
-    }
-
-    .contact-button {
-        position: relative;
-        width: 100%;
-    }
-
-    .footer {
-        position: static;
-    }
+     
 
 }

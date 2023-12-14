@@ -52,7 +52,7 @@
                 </a>
             </div>
             <div class="page-link">
-                <a href="blog" target="_blank">
+                <a href="https://blogtuestilodevida.000webhostapp.com/" target="_blank">
                     <img src="images/logo.png" alt="Ejemplo 2">
                     <h3>Tu Blog Estilo de Vida</h3>
                 </a>
