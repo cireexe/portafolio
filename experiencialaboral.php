@@ -40,20 +40,25 @@
         <div class="experience-card" onclick="toggleDetails('job1Details')">
            <a href="paginas.php"><h2>Desarrollador Web</h2>
             <h4>Freelance</h4>
-                <p>Trabaje en varios proyectos webs, tambien cree propios para seguir aprendiendo</p></a> 
+                <p>He participado en diversos proyectos web y he desarrollado algunos de manera independiente con el objetivo de continuar mi proceso de aprendizaje. 
+                    Durante estas experiencias, he tenido la oportunidad de crear webs como NJ Alquileres del Tuyú y Neocode. Además, he practicado mis habilidades desarrollando "Tu blog de Estilo de Vida".</p></a> 
         </div>
 
         <!-- Tarjeta 2 -->
         <div class="experience-card" onclick="toggleDetails('job2Details')">
             <a href="https://www.youtube.com/@curiosidades.channel" target="_blank"><h2>Edicion de videos</h2>
             <h4>Curiosidades channel</h4>
-                <p>Participe en edicion de videos, audio, creacion de guiones y condenido para redes</p></a>
+                <p>He contribuido en la edición de videos y audio, así como en la creación de guiones y contenido para redes sociales. 
+                    Esta experiencia la adquirí trabajando en "Curiosidades Channel", donde tuve la oportunidad de aplicar mis habilidades en la producción multimedia 
+                    y contribuir al desarrollo de contenido atractivo y educativo que caracteriza al canal.</p></a>
         </div>
 
         <div class="experience-card" onclick="toggleDetails('job2Details')">
             <h2>Area Administrativa</h2>
             <h4>Cooperativa de trabajo Alimar</h4>
-                <p>Me contrataron por mis conocimientos en sistemas, marketing, edicion, etc.</p>
+            <b><p>Fui contratada por la Cooperativa de Trabajo Alimar debido a mis conocimientos especializados en sistemas, marketing, edición y otras áreas relacionadas. Durante mi 
+                tiempo en la empresa, apliqué mis habilidades para contribuir al desarrollo y crecimiento, brindando soluciones efectivas en diversas facetas, desde sistemas 
+                hasta estrategias de marketing.</p></b>
         </div>
         <!-- Agregar más tarjetas según sea necesario -->
     </div>

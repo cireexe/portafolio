@@ -38,7 +38,7 @@
     </div>
 
 
-    <header class="hero">
+    <header class="header">
         <div class="hero-content">
 
             <h1>Hola, <br>
