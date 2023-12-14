@@ -46,9 +46,21 @@
             </div>
 
             <div class="page-link">
-                <a href="tm" target="_blank">
-                    <img src="images/tm.png" alt="Ejemplo 2">
-                    <h3>Training Manager</h3>
+                <a href="https://mundoturismo365.com/" target="_blank">
+                    <img src="images/mundoturismo.png" alt="Ejemplo 2">
+                    <h3>Mundo Turismo 360</h3>
+                </a>
+            </div>
+            <div class="page-link">
+                <a href="blog" target="_blank">
+                    <img src="images/logo.png" alt="Ejemplo 2">
+                    <h3>Tu Blog Estilo de Vida</h3>
+                </a>
+            </div>
+            <div class="page-link">
+                <a href="https://www.neocodetechnology.tech/" target="_blank">
+                    <img src="images/neocode.png" alt="Ejemplo 2">
+                    <h3>NeoCode Technology</h3>
                 </a>
             </div>
             </div>
